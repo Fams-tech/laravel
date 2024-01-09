@@ -19,6 +19,7 @@ class ApprenantController extends Controller
 
     public function listeApprenants(){
         $apprenant = Apprenant::all();
+        dd($apprenant[0]->formations);
         return view('listeApprenants',compact('apprenant'));
     }
 

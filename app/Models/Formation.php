@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Formation extends Model
 {
     use HasFactory;
-    protected $fillable = ['nomFormation'];
+    protected $fillable = ['nomFormation'];//On doit avoir ces memes variables dans la base de donnees
 }
